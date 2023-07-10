@@ -22,7 +22,7 @@ body {
   margin-bottom: $logo-margin-bottom;
   min-height: $logo-height;
   background-repeat: no-repeat;
-  background-image: url(../imgs/logo-light.svg);
+  background-image: $logo-image;
 }
 
 
