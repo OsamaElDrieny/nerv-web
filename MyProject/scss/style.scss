@@ -11,16 +11,18 @@ body {
 .left-content {
   padding: $login-content-padding;
   width: $login-content-width;
-  background-color: $login-contnet-background-color;
-  border-radius: $login-content-border-radius;
-  box-shadow: $login-content-shadow-x $login-content-shadow-y $login-content-shadow-blur $login-content-shadow-spread $login-content-shadow-color;
+  // background-color: $login-contnet-background-color;
+  // border-radius: $login-content-border-radius;
+  // box-shadow: $login-content-shadow-x $login-content-shadow-y $login-content-shadow-blur $login-content-shadow-spread $login-content-shadow-color;
 }
 
 
 
 .logo {
-  padding-bottom: $logo-padding-bottom;
+  margin-bottom: $logo-margin-bottom;
   min-height: $logo-height;
+  background-repeat: no-repeat;
+  background-image: url(../imgs/logo-light.svg);
 }
 
 
