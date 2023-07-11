@@ -13,7 +13,7 @@ body {
   margin-bottom: 50px;
   min-height: 50px;
   background-repeat: no-repeat;
-  background-image: url(osamaeldrieny.github.io/nerv-web/MyProject/imgs/logo-light.svg);
+  background-image: url(../imgs/logo-light.svg);
 }
 
 h1 {
