@@ -22,6 +22,12 @@ body {
   margin-bottom: $logo-margin-bottom;
   min-height: $logo-height;
   background-repeat: no-repeat;
+  background-image: $logo-image;
+}
+
+.bg-image {
+  background-image: $background-image;
+  height: 100vh;
 }
 
 

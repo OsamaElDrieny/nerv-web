@@ -16,6 +16,12 @@ body {
   margin-bottom: 50px;
   min-height: 50px;
   background-repeat: no-repeat;
+  background-image: url(../imgs/logo-light.svg);
+}
+
+.bg-image {
+  background-image: url(../imgs/background-image.png);
+  height: 100vh;
 }
 
 h1 {
