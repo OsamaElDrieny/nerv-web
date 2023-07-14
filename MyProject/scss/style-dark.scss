@@ -1,4 +1,4 @@
-@import '../build/scss/variables';
+@import '../build/scss/variables-dark';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 body {
@@ -11,9 +11,9 @@ body {
 .left-content {
   padding: $login-content-padding;
   width: $login-content-width;
-  background-color: $login-content-background-color;
-  border-radius: $login-content-border-radius;
-  box-shadow: $login-content-shadow-x $login-content-shadow-y $login-content-shadow-blur $login-content-shadow-spread $login-content-shadow-color;
+  // background-color: $login-content-background-color;
+  // border-radius: $login-content-border-radius;
+  // box-shadow: $login-content-shadow-x $login-content-shadow-y $login-content-shadow-blur $login-content-shadow-spread $login-content-shadow-color;
 }
 
 
@@ -71,6 +71,7 @@ form {
   border-top-left-radius: $input-border-radius;
   border-top-right-radius: $input-border-radius;
   border-width: $input-border-width;
+  background-color: $input-background-color;
 
   &::placeholder {
     color: $input-text-color;
@@ -97,6 +98,7 @@ form {
   border-right-width: $input-border-width;
   border-bottom-width: $input-border-width;
   border-top-width: 0px;
+  background-color: $input-background-color;
 
   &::placeholder {
     color: $input-text-color;

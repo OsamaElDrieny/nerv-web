@@ -88,7 +88,7 @@
     "type": "borderRadius"
   },
   "backgroundColor": {
-    "value": "{babyBlue}",
+    "value": "{darkBlue}",
     "type": "color"
   },
   "logoHeight": {
@@ -96,7 +96,7 @@
     "type": "sizing"
   },
   "headingTextcolor": {
-    "value": "{steelBlue}",
+    "value": "{babyBlue}",
     "type": "color"
   },
   "headingFontFamily": {
@@ -116,7 +116,7 @@
     "type": "fontSizes"
   },
   "bodyTextColor": {
-    "value": "{steelBlue}",
+    "value": "{babyBlue}",
     "type": "color"
   },
   "bodyFontFamily": {
@@ -136,7 +136,7 @@
     "type": "fontSizes"
   },
   "inputTextColor": {
-    "value": "{steelBlue}",
+    "value": "{babyBlue}",
     "type": "color"
   },
   "inputFontFamily": {
@@ -160,11 +160,11 @@
     "type": "sizing"
   },
   "inputBackgroundColor": {
-    "value": "{white}",
+    "value": "rgba({steelBlue}, 0.2)",
     "type": "color"
   },
   "inputBorderColor": {
-    "value": "rgba({steelBlue}, 0.5)",
+    "value": "rgba( {white}, 0.2)",
     "type": "color"
   },
   "inputBorderWidth": {
@@ -264,37 +264,30 @@
     "type": "borderRadius"
   },
   "loginContentShadow": {
-    "x": {
-      "value": "0px",
-      "type": "x"
+    "value": {
+      "x": "0px",
+      "y": "30px",
+      "blur": "90px",
+      "spread": "0px",
+      "color": "rgba({steelBlue}, 0.3)",
+      "type": "dropShadow"
     },
-    "y": {
-      "value": "30px",
-      "type": "y"
-    },
-    "blur": {
-      "value": "90px",
-      "type": "blur"
-    },
-    "spread": {
-      "value": "0px",
-      "type": "spread"
-    },
-    "color": {
-      "value": "rgba({steelBlue}, 0.3)",
-      "type": "color"
-    },
-    "type": {
-      "value": "dropShadow",
-      "type": "type"
-    }
+    "type": "boxShadow"
   },
   "logo-image": {
-    "value": "url(../imgs/logo-light.svg)",
+    "value": "url(../imgs/logo-dark.svg)",
     "type": "asset"
   },
   "background-image": {
     "value": "url(../imgs/background-image.png)",
     "type": "asset"
+  },
+  "darkBlue": {
+    "value": "#03274C",
+    "type": "color"
+  },
+  "logoColor": {
+    "value": "{babyBlue}",
+    "type": "color"
   }
 }

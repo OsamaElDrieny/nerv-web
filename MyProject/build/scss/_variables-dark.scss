@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Fri, 14 Jul 2023 15:16:35 GMT
+// Generated on Fri, 14 Jul 2023 16:03:14 GMT
 
 $sz-50: 50px;
 $sz-400: 400px;
@@ -24,26 +24,26 @@ $line-height-h5: 20px;
 $line-height-h1: 48px;
 $border-radius-sm: 8px;
 $border-radius-md: 16px;
-$background-color: #f7faff;
+$background-color: #03274C;
 $logo-height: 50px;
-$heading-textcolor: #7b8796;
+$heading-textcolor: #f7faff;
 $heading-font-family: Inter;
 $heading-font-weight: Bold;
 $heading-line-height: 48px;
 $heading-font-size: 40px;
-$body-text-color: #7b8796;
+$body-text-color: #f7faff;
 $body-font-family: Inter;
 $font-weight-body: Regular;
 $line-height-body: 20px;
 $font-size-body: 14px;
-$input-text-color: #7b8796;
+$input-text-color: #f7faff;
 $input-font-family: Inter;
 $input-font-weight: Regular;
 $input-line-height: 20px;
 $input-fontsize: 14px;
 $input-width: 400px;
-$input-background-color: #ffffff;
-$input-border-color: rgba(#7b8796, 0.5);
+$input-background-color: rgba(#7b8796, 0.2);
+$input-border-color: rgba( #ffffff, 0.2);
 $input-border-width: 1px;
 $input-padding-x: 20px;
 $input-padding-y: 14px;
@@ -68,11 +68,8 @@ $login-content-width: 500px;
 $login-content-background-color: #ffffff;
 $login-content-border-radius: 32px;
 $border-radius-lg: 32px;
-$login-content-shadow-x: 0px;
-$login-content-shadow-y: 30px;
-$login-content-shadow-blur: 90px;
-$login-content-shadow-spread: 0px;
-$login-content-shadow-color: rgba(#7b8796, 0.3);
-$login-content-shadow-type: dropShadow;
-$logo-image: url(../imgs/logo-light.svg);
+$login-content-shadow: [object Object];
+$logo-image: url(../imgs/logo-dark.svg);
 $background-image: url(../imgs/background-image.png);
+$dark-blue: #03274C;
+$logo-color: #f7faff;
